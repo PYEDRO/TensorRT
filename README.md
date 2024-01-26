@@ -28,11 +28,11 @@ Go to nvidia-https://developer.nvidia.com/nvidia-tensorrt-8x-download. You might
 Choose TensorRT 8.6 GA for Ubuntu 22.04 and CUDA 11.0, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7 and 11.8 DEB local repo Package
 
 Install with following commands, after apt install tensorrt, it will automatically install cudnn, nvinfer, nvinfer-plugin, etc.
-
+```
 sudo dpkg -i nv-tensorrt-repo-ubuntu1604-cuda10.0-trt7.0.0.11-ga-20191216_1-1_amd64.deb
 sudo apt update
 sudo apt install tensorrt
-
+```
 For check by if was installed, execute :
 ```
 dpkg-query -W tensorrt
